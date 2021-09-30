@@ -1,0 +1,19 @@
+.app{
+    background-color: white;
+    border-radius: 10px;
+    width: 340px;
+    min-height: 80vh;
+    @media (min-width: 1440px){
+        width: 450px;
+    }
+    .container{
+       @include flex;
+        .submition{
+            margin-top: 20px;
+            @include flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    
+}

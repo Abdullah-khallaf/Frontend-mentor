@@ -1,0 +1,40 @@
+@import "sass/abstracts/variables";
+@import "sass/abstracts/mixins";
+@import "sass/base/typography";
+@import "sass/components/buttons";
+@import "sass/components/cover";
+@import "sass/components/plan";
+@import "sass/abstracts/mixins";
+@import "sass/layout/container";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+body{
+    height: 100vh;
+    @include flex;
+    font-family:'Red Hat Display', sans-serif;
+    line-height: 1.8rem;
+      
+    @media (max-width : 650px) {
+        background-image: url(../images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;  
+    };
+
+    @media (min-width : 650px) {
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;  
+    };
+
+    background-color: $primary-pale-blue;
+    
+}

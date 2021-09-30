@@ -1,1 +1,275 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.description h1 {
+  font-weight: 900;
+  color: #1f2f56;
+  margin: 20px 0 20px;
+}
+
+.description p {
+  color: #7280a7;
+  margin-bottom: 20px;
+  width: 65%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.plan-data div h4 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1f2f56;
+}
+
+.plan-data div span {
+  color: #7280a7;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.plans .change {
+  background: #f5f7ff;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.8rem;
+  font-family: 'Red hat', sans-serif;
+  color: #3829e0;
+  cursor: pointer;
+}
+
+.plans .change:hover {
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.submition {
+  width: 80%;
+}
+
+.submition .proceed-btn {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  background-color: #3829e0;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 6px 16px 0px rgba(56, 41, 224, 0.418);
+          box-shadow: 0px 6px 16px 0px rgba(56, 41, 224, 0.418);
+}
+
+.submition .proceed-btn:hover {
+  opacity: 80%;
+}
+
+.submition .cancel-btn {
+  background: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.8rem;
+  font-family: 'Red hat', sans-serif;
+  color: #7280a7;
+  cursor: pointer;
+}
+
+.submition .cancel-btn:hover {
+  text-decoration: underline;
+  color: #1f2f56;
+}
+
+.hero {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+
+.plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px 20px;
+}
+
+.plans .plan-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.plans .plan-data .music-icon {
+  margin-right: 10px;
+}
+
+.plans .plan-data .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.app {
+  background-color: white;
+  border-radius: 10px;
+  width: 340px;
+  min-height: 80vh;
+}
+
+@media (min-width: 1440px) {
+  .app {
+    width: 450px;
+  }
+}
+
+.app .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.app .container .submition {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 1.8rem;
+  background-color: #e0e8ff;
+}
+
+@media (max-width: 650px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+}
+
+@media (min-width: 650px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+}
+/*# sourceMappingURL=style.css.map */

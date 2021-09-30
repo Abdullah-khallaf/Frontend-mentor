@@ -1,0 +1,22 @@
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: $neutral-pale-blue;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px 20px;
+    .plan-data{
+        @include flex;
+        flex-direction: row;
+        .music-icon{
+            margin-right: 10px;
+        }
+        
+        .div{
+            @include flex;
+            flex-direction: column;
+        }
+    }
+}

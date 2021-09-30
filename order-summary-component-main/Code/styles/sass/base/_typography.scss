@@ -1,0 +1,32 @@
+.description{
+    @include flex;
+    padding: 0 20px;
+    h1{
+        font-weight: 900;
+        color: $neutral-dark-blue;
+        margin: 20px 0 20px;
+    }
+    p{
+        color: $neutral-desaturated-blue;
+        margin-bottom: 20px;
+        width: 65%;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        
+    }
+}
+.plan-data{
+    div{
+        h4{
+            font-weight: 700;
+            font-size:16px;
+            color: $neutral-dark-blue;
+        }
+        span{
+            color: $neutral-desaturated-blue;
+            font-size:14px;
+            font-weight: 500;
+        }
+    }
+}
