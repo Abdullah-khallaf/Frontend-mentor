@@ -29,9 +29,9 @@ This challenge seeks to make 3 column preview card Component according to design
 
 ### Links
 
-- Solution URL: [Solution on Front-end mentor](https://www.frontendmentor.io/solutions/ordersummarycomponent-using-html-and-css-sass-xZjHBjFg0)
+- Solution URL: [Solution on Front-end mentor](https://www.frontendmentor.io/solutions/preview-component-card-using-html-and-css-nSSginndV)
 
-- Live Site URL: [Live Code](https://my-project-kappa-puce.vercel.app/)
+- Live Site URL: [Live Code](https://three-columns-preview-card-component.vercel.app/)
 
 ## My process
 
