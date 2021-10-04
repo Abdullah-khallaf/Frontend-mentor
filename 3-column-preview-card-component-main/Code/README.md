@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - 3-COLUMN-PREVIEE-CARD-COMPONENT
 
 This is a solution to the [3-COLUMN-PREVIEW-CARD-Component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-j). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
