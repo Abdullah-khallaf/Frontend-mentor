@@ -1,0 +1,24 @@
+:root{
+    /* Primary Colors*/
+    --Primary-Dark-Cyan: hsl(185, 75%, 39%);
+    --Primary-Desaturated-Blue:  hsl(229, 23%, 23%);
+    --PrimaryDark-Grayish-Blue: hsl(227, 10%, 46%);
+    
+    /* Neutral Colors*/
+    --Neutral-Dark-Gray: hsl(0, 0%, 59%);
+
+    /* Typography*/
+    --Font-400: 400;
+    --Font-bolder: 700;
+    font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:"Kumbh Sans", sans-serif;
+}
